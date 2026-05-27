@@ -65,7 +65,7 @@ def teclado(key, x, y):
 glut.glutInit()
 glut.glutInitDisplayMode(glut.GLUT_DOUBLE | glut.GLUT_RGB)
 glut.glutInitWindowSize(700, 700)
-glut.glutCreateWindow(b"O Nucleo da Manipulacao Tripla")
+glut.glutCreateWindow(b"O Encontro das Sombras")
 
 glut.glutDisplayFunc(display)
 glut.glutKeyboardFunc(teclado)
