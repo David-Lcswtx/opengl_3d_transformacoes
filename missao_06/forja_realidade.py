@@ -87,7 +87,7 @@ def inicializar():
 glutInit()
 glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH)
 glutInitWindowSize(600, 600)
-glutCreateWindow(b"O Cubo Primordial - Arte do Cisalhamento")
+glutCreateWindow(b"A Forja da Realidade Fluida")
 inicializar()
 glutDisplayFunc(display)
 glutKeyboardFunc(teclado) 
