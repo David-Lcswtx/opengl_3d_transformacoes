@@ -101,7 +101,7 @@ def deslocar(key, x, y):
 glut.glutInit()
 glut.glutInitDisplayMode(glut.GLUT_DOUBLE | glut.GLUT_RGB | glut.GLUT_DEPTH)
 glut.glutInitWindowSize(600, 600)
-glut.glutCreateWindow(b"O Nucleo da Manipulacao Tripla")
+glut.glutCreateWindow(b"A Harmonia dos Tres Reinos")
 gl.glEnable(gl.GL_DEPTH_TEST)
 
 glut.glutDisplayFunc(desenhar)
